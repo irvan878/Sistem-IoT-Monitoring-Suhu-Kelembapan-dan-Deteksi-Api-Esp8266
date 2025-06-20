@@ -49,7 +49,7 @@ Pastikan Anda sudah menginstal library berikut:
 - LiquidCrystal_I2C
 - WiFiClientSecure
 
-Ubah Konfigurasi WiFi dan Token Telegram
+3. Ubah Konfigurasi WiFi dan Token Telegram
 
 Pada bagian awal kode, ubah informasi berikut sesuai dengan jaringan dan bot Anda:
 
