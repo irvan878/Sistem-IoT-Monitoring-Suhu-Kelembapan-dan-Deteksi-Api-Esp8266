@@ -37,9 +37,11 @@ SISTEM IOT UNTUK MONITORING SUHU, KELEMBAPAN, DAN DETEKSI API MENGGUNAKAN ESP826
 
 ### 
 1. Clone Repository
+
 git clone https://github.com/irvan878/Sistem-IoT-Monitoring-Suhu-Kelembapan-dan-Deteksi-Api-Esp8266
 
 2. Siapkan Library Arduino IDE
+
 Pastikan Anda sudah menginstal library berikut:
 - DHT sensor library by Adafruit
 - UniversalTelegramBot
@@ -48,10 +50,15 @@ Pastikan Anda sudah menginstal library berikut:
 - WiFiClientSecure
 
 Ubah Konfigurasi WiFi dan Token Telegram
+
 Pada bagian awal kode, ubah informasi berikut sesuai dengan jaringan dan bot Anda:
+
 const char* ssid = "NamaWiFiAnda";
+
 const char* password = "PasswordWiFi";
+
 const char* botToken = "TOKEN_BOT_ANDA";
+
 const char* chatID = "CHAT_ID_ANDA";
 
 4. Upload ke Board ESP8266
@@ -59,6 +66,7 @@ const char* chatID = "CHAT_ID_ANDA";
 - Hubungkan ke komputer, lalu upload program dari Arduino IDE.
 
 5. Tampilan LCD
+
 LCD akan menampilkan:
 - Informasi suhu dan kelembapan secara bergantian.
 - Peringatan jika ada gas atau api.
